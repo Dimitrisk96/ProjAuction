@@ -33,8 +33,111 @@ public class ProjectRequest {
     
     }
     
-    
-    
+    int get_id()
+            {
+                return id;
+            }
+            
+           
+     String get_title()
+     {
+         return title;
+     }
+                     
+     String get_description()
+     {
+         return description;
+     }
+                            
+     String get_accomp_files()
+             {
+                 return accomp_files;
+             }
+             
+             
+      Date get_final_deadline()
+              {
+                  
+                  return final_deadline;
+              }      
+              int get_maximum_bid()
+              {
+                  return maximum_bid;
+              }
+                      
+              
+       Date get_start_date()
+       {
+           return start_date;
+       }
+                              
+       
+       Date get_end_date()
+       {
+           return end_date;
+           
+       }
+   
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       void set_id(int id)
+            {
+                this.id=id;
+            }
+            
+           
+     void set_title(String title)
+     {
+         this.title=title;
+     }
+                     
+     void set_description(String description)
+     {
+         this.description=description;
+     }
+                            
+     void set_accomp_files(String accomp_files)
+             {
+                this.accomp_files=accomp_files;
+             }
+             
+             
+      void set_final_deadline(Date final_deadline)
+              {
+                  
+                  this.final_deadline=final_deadline;
+              }      
+              
+      void set_maximum_bid(int maximum_bid)
+              {
+                  this.maximum_bid=maximum_bid;
+              }
+                      
+              
+       void set_start_date(Date start_date)
+       {
+           this.start_date=start_date;
+       }
+                              
+       
+       void get_end_date(Date end_date)
+       {
+           this.end_date=end_date;
+           
+       }
+       
+       
+       
     
     
     
