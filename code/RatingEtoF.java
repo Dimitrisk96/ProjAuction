@@ -78,22 +78,22 @@ public class RatingEtoF {
     
     //Set functions
     
-    void rating_q(int rating_q)
+    void set_rating_q(int rating_q)
     {
         this.rating_q = rating_q;
     }
     
-    void rating_c(int rating_c)
+    void set_rating_c(int rating_c)
     {
         this.rating_c = rating_c;
     }
     
-    void rating_cc(int rating_cc)
+    void set_rating_cc(int rating_cc)
     {
         this.rating_cc = rating_cc;
     }
     
-    void rating_com(int rating_com)
+    void set_rating_com(int rating_com)
     {
         this.rating_com = rating_com;
     }

@@ -66,12 +66,12 @@ public class RatingFtoE {
     
     //Set Functions
     
-    void rating_comm(int rating_comm)
+    void set_rating_comm(int rating_comm)
     {
         this.rating_comm = rating_comm;
     }
     
-    void rating_feed(int rating_feed)
+    void set_rating_feed(int rating_feed)
     {
         this.rating_feed = rating_feed;
     }
