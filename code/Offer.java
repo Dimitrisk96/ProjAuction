@@ -1,8 +1,4 @@
-package com.mycompany.projauction;
 import java.sql.Date;
-
-
-
 
 public class Offer {
     
