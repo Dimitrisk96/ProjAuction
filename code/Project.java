@@ -75,4 +75,44 @@ String get_username_freelancer()
         
         return paid_ammount;
     }
+    void set_username_freelancer(String username_freelancer)
+            
+    {
+        this.username_freelancer= username_freelancer;
+    }
+void set_username_employer(String username_employer)
+            
+    {
+        this.username_employer = username_employer;
+    }
+    void set_username_admin(String username_admin)
+            
+    {
+        this.username_admin = username_admin;
+    }
+    void set_first_deadline(int first_deadline)
+            
+    {
+        this.first_deadline = first_deadline;
+    }
+    void set_ammount_per_deadline(int ammount_per_deadline)
+            
+    {
+        this.ammount_per_deadline= ammount_per_deadline;
+    }
+    void set_files_per_deadline(Files files_per_deadline)
+            
+    {
+        this.files_per_deadline = files_per_deadline;
+    }
+    void set_paid_ammount(int paid_ammount)
+            
+    {
+        this.paid_ammount = paid_ammount;
+    }
+    void set_status(String status)
+            
+    {
+        this.status = status;
+    }
 }
