@@ -109,3 +109,16 @@ public class Freelancer {
         this.ko = ko;
     }
 }
+
+    void delete_account()
+    {
+        for(Freelancer fl: Main.freelancers)
+        {
+            if(fl.get_username().equals(this.get_username()))  
+            {
+                Main.freelancers.remove(fl);
+                
+                break;
+            }
+        }
+    }
