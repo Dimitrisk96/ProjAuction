@@ -4,6 +4,11 @@ import java.util.Date;
 public class Project{
     
     private String username_freelancer;
+    
+    private int id;
+    
+    private String title;
+    
     private String username_employer;
     private String username_admin;
     private Date first_deadline;
@@ -11,11 +16,14 @@ public class Project{
     private Files files_per_deadline;
     private String status;
     private int paid_ammount;
+    private Date last_deadline;
     
 
 
-public Project(String username_freelancer, String username_employer, String username_admin, Date first_deadline, int ammount_per_deadline, Files files_per_deadline, String status, int paid_ammount)
+public Project(int id, String username_freelancer, String username_employer, String username_admin, Date first_deadline, Date last_deadline, int ammount_per_deadline, Files files_per_deadline, String status, int paid_ammount)
 {
+    
+    this.id = id;
     this.username_freelancer = username_freelancer;
     this.username_employer = username_employer;
     this.username_admin = username_admin;
@@ -24,7 +32,10 @@ public Project(String username_freelancer, String username_employer, String user
     this.files_per_deadline = files_per_deadline;
     this.status = status;
     this.paid_ammount = paid_ammount;
+    
+    this.last_deadline = last_deadline;
 }
+
 String get_username_freelancer()
             
     {
@@ -38,26 +49,47 @@ String get_username_freelancer()
         
     }
     
+    int get_id()
+            
+    {
+        return id;
+        
+    }
+    
+    String get_title()
+            
+    {
+        return title;
+        
+    }
+    
+    Date get_last_deadline()
+            
+    {
+       return last_deadline; 
+    }
+    
+    
     String get_username_admin()
             
     {
         return username_admin;
     }
     
-    String get_first_deadline()
+    Date get_first_deadline()
             
     {
         return first_deadline;
     }
     
-    String get_ammount_per_deadline()
+    int get_ammount_per_deadline()
             
     {
         
         return ammount_per_deadline;
     }
     
-    String get_files_per_deadline()
+    Files get_files_per_deadline()
             
     {
         
@@ -69,7 +101,7 @@ String get_username_freelancer()
         
         return status;
     }
-    String get_paid_ammount()
+    int get_paid_ammount()
             
     {
         
@@ -80,7 +112,7 @@ String get_username_freelancer()
     {
         this.username_freelancer= username_freelancer;
     }
-void set_username_employer(String username_employer)
+    void set_username_employer(String username_employer)
             
     {
         this.username_employer = username_employer;
@@ -90,11 +122,19 @@ void set_username_employer(String username_employer)
     {
         this.username_admin = username_admin;
     }
-    void set_first_deadline(int first_deadline)
+    void set_first_deadline(Date first_deadline)
             
     {
         this.first_deadline = first_deadline;
     }
+    
+     void set_last_deadline(Date last_deadline)
+            
+    {
+        this.last_deadline = last_deadline;
+    }
+    
+    
     void set_ammount_per_deadline(int ammount_per_deadline)
             
     {

@@ -1,3 +1,4 @@
+import java.io.File;
 import java.sql.Time;
 import java.util.Date;
 
@@ -7,10 +8,10 @@ public class Paradoteo {
 	private int code_paradoteou;
 	private Date date;
 	private Time hour;
-	private String file;
+	private File file;
 
 	
-    public Paradoteo(int project_id, int code_paradoteou, Date  date, Time hour, String file)
+    public Paradoteo(int project_id, int code_paradoteou, Date  date, Time hour, File file)
 	{ 	
 		this.project_id= project_id;
 		this.code_paradoteou = code_paradoteou;
@@ -43,7 +44,7 @@ public class Paradoteo {
              }
             
              
-             String get_file()
+             File get_file()
              {
                  return file;
              }
@@ -77,7 +78,7 @@ public class Paradoteo {
              }
             
              
-             void set_file(String file)
+             void set_file(File file)
              {
                  this.file=file;
              }
