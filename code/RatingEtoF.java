@@ -15,8 +15,9 @@ public class RatingEtoF {
     private Date date;
     private Time hour;
     private String comment;
+    int project_id;
     
-    public RatingEtoF(int rating_q, int rating_c, int rating_cc, int rating_com, String username_freelancer, String username_employer, Date date, Time hour, String comment)
+    public RatingEtoF(int rating_q, int rating_c, int rating_cc, int rating_com, String username_freelancer, String username_employer, Date date, Time hour, String comment, int project_id)
     {
         this.rating_q = rating_q;
         this.rating_c = rating_c;
@@ -27,6 +28,8 @@ public class RatingEtoF {
         this.date = date;
         this.hour = hour;
         this.avg_rating = (this.rating_q + this.rating_c+this.rating_cc+this.rating_com)/4;
+        
+        this.project_id = project_id;
     }
     
     //Get functions
@@ -39,6 +42,13 @@ public class RatingEtoF {
     int get_rating_c()
     {
         return rating_c;
+    }
+    
+    int get_project_id()
+            
+    {
+        
+        return project_id;
     }
     
     int get_rating_cc()
