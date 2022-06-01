@@ -1,15 +1,11 @@
-package com.mycompany.projauction;
 import java.sql.Date;
 import java.sql.Time;
 
-
-
-
 public class Feedback {
     
-    private String username_admin;
+    private String from;
         
-    private String username_employer;
+    private String to;
     
     private int project_id;
     
@@ -21,12 +17,12 @@ public class Feedback {
     
     
     
-    public Feedback(String username_admin, String username_employer, int project_id, String sxolio, Date Hmerominia_ypovolis, Time wra_ypovolis)
+    public Feedback(String from, String to, int project_id, String sxolio, Date Hmerominia_ypovolis, Time wra_ypovolis)
     
     {
-       this.username_admin = username_admin;
+       this.from = from;
         
-       this.username_employer = username_employer;
+       this.to = to;
     
        this.project_id = project_id;
     
@@ -37,12 +33,12 @@ public class Feedback {
        this.wra_ypovolis = wra_ypovolis;
 }
 
-    String get_username_admin() {
-    return username_admin;
+    String get_from() {
+    return from;
 }
     
-    String get_username_employer(){
-    return username_employer;
+    String get_to(){
+    return to;
     }
     
     int get_project_id(){
@@ -61,12 +57,12 @@ public class Feedback {
     return wra_ypovolis;
     }
     
-    void set_username_admin(String username_admin){
-    this.username_admin = username_admin;
+    void set_from(String from){
+    this.from = from;
     }
     
-    void set_username_employer(String username_employer){
-    this.username_employer = username_employer;
+    void set_to(String username_employer){
+    this.to = to;
     }
     
     void set_project_id(int project_id){
