@@ -1,4 +1,4 @@
-import java.sql.Date;
+import java.util.Date;
 
 public class Offer {
     
@@ -27,7 +27,7 @@ public class Offer {
     
        this.status = status;
 }
-    String get_String username_freelancer()
+    String get_username_freelancer()
             
     {
         return username_freelancer;
