@@ -54,6 +54,13 @@ public class Freelancer {
         return cv;
     }
     
+    int get_phone()
+            
+    {
+        
+        return phone;
+    }
+    
     String get_name()     
     {
         return name;
@@ -835,7 +842,7 @@ void edit_info(String onoma, String eponimo, String username, String email, Stri
                 }
             }
             
-            Project newpro  = new Project(pr.get_id(),this.username,pr.get_username_employer(),adm_project.get_username(),pr.get_first_deadline(),pr.get_final_deadline(),f.get_bid()/2,pr.get_accomp_files(),"started",0);
+            Project newpro  = new Project(pr.get_id(),this.username,pr.get_username_employer(),adm_project.get_username(),pr.get_first_deadline(),pr.get_final_deadline(),f.get_bid()/2,pr.get_accomp_files(),"started",0,pr.get_description());
             
             Main.projects.add(newpro);
             
@@ -994,5 +1001,12 @@ void edit_info(String onoma, String eponimo, String username, String email, Stri
       
       Main.offers.add(o);
       
+  }
+  
+  void logout()
+          
+  {
+      
+      //tha emfanizetai i arxiki selida tou sistimatos
   }
 }

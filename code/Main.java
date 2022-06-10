@@ -47,7 +47,47 @@ public class Main
         
     }
     
+    static Employer get_employer_by_username(String username)
+            
+    {
+        Employer result = null;
+        
+        for (Employer e:Main.employers)
+        {
+            
+            if(e.get_username().equals(username))
+                
+            {
+                result = e;
+                
+                
+            }
+            
+        }
+        
+        return result;
+    }
     
     
+      static Freelancer get_freelancer_by_username(String username)
+            
+    {
+        Freelancer result = null;
+        
+        for (Freelancer f:Main.freelancers)
+        {
+            
+            if(f.get_username().equals(username))
+                
+            {
+                result = f;
+                
+                
+            }
+            
+        }
+        
+        return result;
+    }
     
 }
