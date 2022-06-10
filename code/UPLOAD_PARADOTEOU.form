@@ -24,33 +24,28 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
-              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
-              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-              <EmptySpace max="32767" attributes="0"/>
-          </Group>
-          <Group type="102" alignment="1" attributes="0">
-              <EmptySpace max="32767" attributes="0"/>
-              <Component id="jScrollPane1" min="-2" pref="161" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" attributes="0">
-                              <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
-                              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
-                          </Group>
+                          <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
                           <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="126" max="-2" attributes="0"/>
-                              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="99" max="-2" attributes="0"/>
-                              <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                              <Component id="jScrollPane1" min="-2" pref="161" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                              </Group>
                           </Group>
                       </Group>
                       <EmptySpace max="32767" attributes="0"/>
                   </Group>
-                  <Group type="102" alignment="1" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                      <Component id="jButton2" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="32767" attributes="0"/>
                       <Component id="jButton3" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="105" max="-2" attributes="0"/>
                   </Group>
               </Group>
           </Group>
@@ -59,26 +54,23 @@
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
-              <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
               <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <Component id="jScrollPane1" min="-2" pref="185" max="-2" attributes="0"/>
-                      <EmptySpace pref="42" max="32767" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <Component id="jLabel2" min="-2" pref="39" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="32767" attributes="0"/>
-                      <Component id="jButton3" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
+              <EmptySpace pref="85" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButton3" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -86,7 +78,7 @@
   <SubComponents>
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
-        <Property name="text" type="java.lang.String" value="&#x391;&#x39d;&#x391;&#x398;&#x395;&#x3a3;&#x397; PROJECT"/>
+        <Property name="text" type="java.lang.String" value="UPLOAD &#x3a0;&#x391;&#x3a1;&#x391;&#x394;&#x39f;&#x3a4;&#x395;&#x39f;&#x3a5;"/>
       </Properties>
     </Component>
     <Container class="javax.swing.JScrollPane" name="jScrollPane1">
@@ -106,22 +98,22 @@
     </Container>
     <Component class="javax.swing.JLabel" name="jLabel2">
       <Properties>
-        <Property name="text" type="java.lang.String" value="&#x39f; &#x395;&#x3a1;&#x393;&#x39f;&#x394;&#x39f;&#x3a4;&#x397;&#x3a3; &#x3a3;&#x391;&#x3a3; &#x395;&#x3a7;&#x395;&#x399; &#x395;&#x3a0;&#x399;&#x39b;&#x395;&#x39e;&#x395;&#x399; &#x393;&#x399;&#x391; &#x3a4;&#x39f; PROJECT &#x3a3;&#x3a4;&#x39f; &#x39f;&#x3a0;&#x39f;&#x399;&#x39f; &#x39a;&#x391;&#x39d;&#x391;&#x3a4;&#x395; &#x3a0;&#x3a1;&#x39f;&#x3a3;&#x3a6;&#x39f;&#x3a1;&#x391;,&#x395;&#x3a0;&#x399;&#x398;&#x3a5;&#x39c;&#x395;&#x399;&#x3a4;&#x395; &#x39d;&#x391; &#x3a4;&#x39f; &#x391;&#x39d;&#x391;&#x39b;&#x391;&#x392;&#x395;&#x3a4;&#x395;?   "/>
+        <Property name="text" type="java.lang.String" value="&#x3a0;&#x391;&#x3a1;&#x391;&#x39a;&#x391;&#x39b;&#x3a9; &#x395;&#x3a0;&#x399;&#x3a3;&#x3a5;&#x39d;&#x391;&#x3a8;&#x3a4;&#x395; &#x3a4;&#x39f; &#x391;&#x3a1;&#x3a7;&#x395;&#x399;&#x39f; &#x3a3;&#x391;&#x3a3;:"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="jButton1">
       <Properties>
-        <Property name="text" type="java.lang.String" value="&#x391;&#x39a;&#x3a5;&#x3a1;&#x39f;"/>
+        <Property name="text" type="java.lang.String" value="&#x395;&#x3a0;&#x399;&#x3a3;&#x3a5;&#x39d;&#x391;&#x3a8;&#x397; &#x391;&#x3a1;&#x3a7;&#x395;&#x399;&#x39f;&#x3a5;"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="jButton2">
       <Properties>
-        <Property name="text" type="java.lang.String" value="&#x391;&#x3a0;&#x39f;&#x394;&#x39f;&#x3a7;&#x397;"/>
+        <Property name="text" type="java.lang.String" value="&#x391;&#x39a;&#x3a5;&#x3a1;&#x39f;"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="jButton3">
       <Properties>
-        <Property name="text" type="java.lang.String" value="&#x3a0;&#x399;&#x3a3;&#x3a9;"/>
+        <Property name="text" type="java.lang.String" value="&#x3a6;&#x39f;&#x3a1;&#x3a4;&#x3a9;&#x3a3;&#x397;"/>
       </Properties>
     </Component>
   </SubComponents>
