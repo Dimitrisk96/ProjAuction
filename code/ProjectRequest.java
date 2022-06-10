@@ -1,4 +1,3 @@
-import java.nio.file.Files;
 import java.sql.Time;
 import java.util.Date;
 
@@ -8,18 +7,15 @@ public class ProjectRequest {
     private int id;
     private String title;
     private String description;
-    private Files accomp_files;
+    private String accomp_files;
     private Date final_deadline;
     private int maximum_bid;
     private Date start_date;
     private Date end_date;
-    private String username_employer;
-    
-    private Date first_deadline;
     
     
     
-    public ProjectRequest(int id, String title, String description,Files accomp_files,Date final_deadline,int maximum_bid,Date start_date,Date end_date,String username_employer, Date first_deadline)
+    public ProjectRequest(int id, String title, String description,String accomp_files,Date final_deadline,int maximum_bid,Date start_date,Date end_date)
     {
     
     this.id=id;
@@ -31,9 +27,6 @@ public class ProjectRequest {
     this.start_date=start_date;
     this.end_date=end_date;
     
-    this.username_employer = username_employer;
-    
-    this.first_deadline = first_deadline;
     
     
     
@@ -44,20 +37,7 @@ public class ProjectRequest {
             {
                 return id;
             }
-    
-    String get_username_employer()
             
-    {
-        
-        return this.username_employer;
-    }
-    
-    Date get_first_deadline()
-            
-    {
-        
-        return this.first_deadline;
-    }
            
      String get_title()
      {
@@ -69,7 +49,7 @@ public class ProjectRequest {
          return description;
      }
                             
-     Files get_accomp_files()
+     String get_accomp_files()
              {
                  return accomp_files;
              }
@@ -118,7 +98,7 @@ public class ProjectRequest {
          this.description=description;
      }
                             
-     void set_accomp_files(Files accomp_files)
+     void set_accomp_files(String accomp_files)
              {
                 this.accomp_files=accomp_files;
              }
@@ -128,14 +108,7 @@ public class ProjectRequest {
               {
                   
                   this.final_deadline=final_deadline;
-              }   
-      
-      void set_first_deadline(Date first_deadline)
-              
-      {
-          
-          this.first_deadline = first_deadline;
-      }
+              }      
               
       void set_maximum_bid(int maximum_bid)
               {
@@ -149,7 +122,7 @@ public class ProjectRequest {
        }
                               
        
-       void set_end_date(Date end_date)
+       void get_end_date(Date end_date)
        {
            this.end_date=end_date;
            

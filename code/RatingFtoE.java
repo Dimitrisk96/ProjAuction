@@ -12,9 +12,9 @@ public class RatingFtoE {
     private Date date;
     private Time hour;
     private String comment;
-    private int project_id;
     
-    public RatingFtoE(int rating_comm, int rating_feed, String username_freelancer, String username_employer, float avg_rating, Date date, Time hour, String comment, int project_id)
+    
+    public RatingFtoE(int rating_comm, int rating_feed, String username_freelancer, String username_employer, float avg_rating, Date date, Time hour, String comment)
     
     {
         this.rating_comm = rating_comm;
@@ -25,8 +25,6 @@ public class RatingFtoE {
         this.hour = hour;
         this.comment = comment;
         this.avg_rating = (this.rating_comm+this.rating_feed)/2;
-        
-        this.project_id = project_id;
     }
     
     //Get Functions
@@ -39,13 +37,6 @@ public class RatingFtoE {
     int get_rating_feed()
     {
         return rating_feed;
-    }
-    
-    int get_project_id()
-            
-    {
-        
-        return project_id;
     }
     
     String get_username_freelancer()
